@@ -1,3 +1,5 @@
+note : menggunakan for
+
 #include <iostream> // Define iostream
 using namespace std; // menggunakan std
 int main()
@@ -11,6 +13,32 @@ int main()
             cout<<"*";
             }
             cout<<endl;
+    }
+    return 0;
+}
+
+
+note : menggunakan while
+
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+     int batas;
+     int i=0;
+     int j=0;
+     cout << "Batas :";
+     cin >> batas;
+
+    while(i<batas){
+        j=0;
+        while (j<i){
+            cout<<"*";
+            j++;
+
+    }
+    cout<<endl;
+    i++;
     }
     return 0;
 }
